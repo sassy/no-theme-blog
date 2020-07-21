@@ -5,7 +5,6 @@ module.exports = {
     author: `Satoshi Watanabe`,
     keywords: `Blog`,
     type: `website`,
-    siteUrl: `http://test`,
     siteName: `No Theme Blog`,
   },
   plugins: [
