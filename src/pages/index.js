@@ -36,7 +36,9 @@ const Home = ({data}) => (
                 { property: 'og:keywords', content: data.site.siteMetadata.keywords },
                 { property: 'og:type', content: data.site.siteMetadata.type },
                 { property: 'og:site_name', content: data.site.siteMetadata.siteName },
-                { property: 'og:image', content: data.site.siteMetadata.siteUrl + data.file.childImageSharp.resize.src }
+                { property: 'og:image', content: data.site.siteMetadata.siteUrl + data.file.childImageSharp.resize.src },
+                { property: 'og:image:width', content: 200 },
+                { property: 'og:image:height', content: 200 }
             ]}
          />
         <h1>Home</h1>
