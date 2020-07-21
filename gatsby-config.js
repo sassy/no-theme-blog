@@ -4,6 +4,7 @@ module.exports = {
     description: `This is test site for investigating Gatsbyjs.`,
     author: `Satoshi Watanabe`,
     keywords: `Blog`,
+    siteUrl: `https://gifted-perlman-9c3e84.netlify.app/`,
     type: `website`,
     siteName: `No Theme Blog`,
   },
